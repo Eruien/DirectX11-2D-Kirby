@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Sample.cpp" />
+    <ClCompile Include="LMonsterAttack.cpp">
+      <Filter>MonsterAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LMonsterMove.cpp">
+      <Filter>MonsterAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LMonsterTrace.cpp">
+      <Filter>MonsterAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LMonster.cpp" />
+    <ClCompile Include="LMonsterGoHome.cpp">
+      <Filter>MonsterAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LScene.cpp" />
+    <ClCompile Include="LMainScene.cpp">
+      <Filter>SceneAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LBossScene.cpp">
+      <Filter>SceneAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LEndScene.cpp">
+      <Filter>SceneAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LGameScene.cpp">
+      <Filter>SceneAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LBoss.cpp" />
+    <ClCompile Include="LBossBoom.cpp">
+      <Filter>BossAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LBossIdle.cpp">
+      <Filter>BossAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LBossMove.cpp">
+      <Filter>BossAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LBossRazer.cpp">
+      <Filter>BossAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LBossStar.cpp">
+      <Filter>BossAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LBossRazerReady.cpp">
+      <Filter>BossAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LBossThickRazer.cpp">
+      <Filter>BossAction</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sample.h" />
+    <ClInclude Include="LMonsterAttack.h">
+      <Filter>MonsterAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LMonsterMove.h">
+      <Filter>MonsterAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LMonsterTrace.h">
+      <Filter>MonsterAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LMonster.h" />
+    <ClInclude Include="LMonsterGoHome.h">
+      <Filter>MonsterAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LScene.h" />
+    <ClInclude Include="LMainScene.h">
+      <Filter>SceneAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LBossScene.h">
+      <Filter>SceneAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LEndScene.h">
+      <Filter>SceneAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LGameScene.h">
+      <Filter>SceneAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LBoss.h" />
+    <ClInclude Include="LBossBoom.h">
+      <Filter>BossAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LBossIdle.h">
+      <Filter>BossAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LBossMove.h">
+      <Filter>BossAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LBossRazer.h">
+      <Filter>BossAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LBossStar.h">
+      <Filter>BossAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LBossRazerReady.h">
+      <Filter>BossAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LBossThickRazer.h">
+      <Filter>BossAction</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="MonsterAction">
+      <UniqueIdentifier>{fe9227cc-c1a0-450c-ad49-06b4cfd37ac3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneAction">
+      <UniqueIdentifier>{14dcf9fe-253a-47c0-a7ab-5f9816ef90b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BossAction">
+      <UniqueIdentifier>{2434027d-3f12-4ec8-880e-05890461d8bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

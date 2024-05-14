@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LMonsterAttack" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACgAAAAAAAAAAAAQAAAICAAAAAAA=</HashCode>
+      <FileName>LMonsterAttack.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMonsterGoHome" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgECAAAAAAAAAAAAABACAAAAAAA=</HashCode>
+      <FileName>LMonsterGoHome.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMonsterMove" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAACAAIAgAA=</HashCode>
+      <FileName>LMonsterMove.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMonsterTrace" Collapsed="true">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAgAgCAAAAAAAAAAAQAAAACAAAAAAA=</HashCode>
+      <FileName>LMonsterTrace.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LBossScene" Collapsed="true">
+    <Position X="7.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAABAIABAggAAAAAIgAAAIBAAAADIBAAAAI=</HashCode>
+      <FileName>LBossScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LEndScene" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAiAAIABAiAAAAAAAAAAAAAAAAACABAAAAI=</HashCode>
+      <FileName>LEndScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LGameScene" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAgAABAIIJAggAAAAAAAAAAIAAAAADIBAAAAI=</HashCode>
+      <FileName>LGameScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMainScene" Collapsed="true">
+    <Position X="5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAIAAAAAIABAiAAAAAAAAAAAAAAAAACABAAAAI=</HashCode>
+      <FileName>LMainScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LBossBoom" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LBossBoom.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LBossIdle" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACAAAAAAAAAIAAAgQAACAAAAAAAAAAAACCAIBAAAA=</HashCode>
+      <FileName>LBossIdle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LBossMove" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACAAAAAAAAAIAAAgAAACAAAAAAAAAAAACCgKAAAAA=</HashCode>
+      <FileName>LBossMove.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LBossRazer" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAACAAAAAQA=</HashCode>
+      <FileName>LBossRazer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LBossRazerReady" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAACAAAAAAI=</HashCode>
+      <FileName>LBossRazerReady.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LBossStar" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAgAAAAAAAAAgAAAAAAACAAAAAAA=</HashCode>
+      <FileName>LBossStar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LBossThickRazer" Collapsed="true">
+    <Position X="12" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAgAAAAAAAIAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>LBossThickRazer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BossState" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAIAIAAAgAgAAAEAEAAAAAAAAACAAAAAEA=</HashCode>
+      <FileName>LBoss.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LBoss" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAMQgCIAEAAEwIgAIAAQEBBArQgBCABICABAoEoE=</HashCode>
+      <FileName>LBoss.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonsterState" Collapsed="true">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAIAIAAAgAgCAAAAAAAAAAAAAACAAACAEA=</HashCode>
+      <FileName>LMonster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MonsterBeamState" Collapsed="true">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LMonster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LMonster" Collapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAEAgAIAEAAAgAgAIAAAABAAiAgBAABICABAAUgE=</HashCode>
+      <FileName>LMonster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneState" Collapsed="true">
+    <Position X="3.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIIAAAAgAAAAAAAAQAAAICAAACAQAAAAA=</HashCode>
+      <FileName>LScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LScene" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAMAgAAABAAAAAgAAAAAABQAwAAJCABACARAAAgE=</HashCode>
+      <FileName>LScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sample" Collapsed="true">
+    <Position X="16.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAQAAABAAAAAIgAAAAAAAAAAIAAABACIBAAAEM=</HashCode>
+      <FileName>Sample.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

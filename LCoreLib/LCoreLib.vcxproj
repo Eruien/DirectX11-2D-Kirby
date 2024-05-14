@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{cd6e8867-11b3-402a-b99a-936775a8671e}</ProjectGuid>
+    <RootNamespace>LCoreLib</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>../../output/</OutDir>
+    <IntDir>../../output/Debug/LCoreLib/</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>../../fmod/inc/</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <OutputFile>LCoreLib.lib</OutputFile>
+      <AdditionalLibraryDirectories>../../fmod/lib/x64/</AdditionalLibraryDirectories>
+    </Lib>
+    <PostBuildEvent>
+      <Command>copy "*.h" "..\\..\\LCoreLib\\include"
+copy "*.inl" "..\\..\\LCoreLib/include"
+copy "LCoreLib.lib" "..\\..\\LCoreLib/lib"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="DirectXTex.h" />
+    <ClInclude Include="LAirInHale.h" />
+    <ClInclude Include="LAirOutHale.h" />
+    <ClInclude Include="LAngelAttack.h" />
+    <ClInclude Include="LAngelCrouch.h" />
+    <ClInclude Include="LAngelFall.h" />
+    <ClInclude Include="LAngelFlapping.h" />
+    <ClInclude Include="LAngelFly.h" />
+    <ClInclude Include="LAngelIdleAction.h" />
+    <ClInclude Include="LAngelRunAction.h" />
+    <ClInclude Include="LAngelSlide.h" />
+    <ClInclude Include="LAngelWalkAction.h" />
+    <ClInclude Include="LAnimation.h" />
+    <ClInclude Include="LBeamAirInHale.h" />
+    <ClInclude Include="LBeamAirOutHale.h" />
+    <ClInclude Include="LBeamAttack.h" />
+    <ClInclude Include="LBeamCrouch.h" />
+    <ClInclude Include="LBeamFall.h" />
+    <ClInclude Include="LBeamFlapping.h" />
+    <ClInclude Include="LBeamFly.h" />
+    <ClInclude Include="LBeamIdleAction.h" />
+    <ClInclude Include="LBeamRunAction.h" />
+    <ClInclude Include="LBeamSlide.h" />
+    <ClInclude Include="LBeamWalkAction.h" />
+    <ClInclude Include="LCamera.h" />
+    <ClInclude Include="LCollision.h" />
+    <ClInclude Include="LCore.h" />
+    <ClInclude Include="LCrouch.h" />
+    <ClInclude Include="LDeadAction.h" />
+    <ClInclude Include="LFall.h" />
+    <ClInclude Include="LFatIdle.h" />
+    <ClInclude Include="LFatMode.h" />
+    <ClInclude Include="LFiniteState.h" />
+    <ClInclude Include="LFirstInHale.h" />
+    <ClInclude Include="LFlapping.h" />
+    <ClInclude Include="LFly.h" />
+    <ClInclude Include="LFSMMgr.h" />
+    <ClInclude Include="LGlobal.h" />
+    <ClInclude Include="LDevice.h" />
+    <ClInclude Include="LDXObject.h" />
+    <ClInclude Include="LIdleAction.h" />
+    <ClInclude Include="LInput.h" />
+    <ClInclude Include="LLife.h" />
+    <ClInclude Include="LManager.h" />
+    <ClInclude Include="LManagerAgr.h" />
+    <ClInclude Include="LMath.h" />
+    <ClInclude Include="LModeChange.h" />
+    <ClInclude Include="LObject.h" />
+    <ClInclude Include="LPlaneObj.h" />
+    <ClInclude Include="LPlayer.h" />
+    <ClInclude Include="LRunAction.h" />
+    <ClInclude Include="LSecondInHale.h" />
+    <ClInclude Include="LSlide.h" />
+    <ClInclude Include="LSoundMgr.h" />
+    <ClInclude Include="LSpriteUVObj.h" />
+    <ClInclude Include="LStd.h" />
+    <ClInclude Include="LTakeDamage.h" />
+    <ClInclude Include="LTimer.h" />
+    <ClInclude Include="LUtils.h" />
+    <ClInclude Include="LWalkAction.h" />
+    <ClInclude Include="LWindow.h" />
+    <ClInclude Include="LWrite.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DirectXTex.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="DirectXTex.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LAirInHale.cpp" />
+    <ClCompile Include="LAirOutHale.cpp" />
+    <ClCompile Include="LAngelAttack.cpp" />
+    <ClCompile Include="LAngelCrouch.cpp" />
+    <ClCompile Include="LAngelFall.cpp" />
+    <ClCompile Include="LAngelFlapping.cpp" />
+    <ClCompile Include="LAngelFly.cpp" />
+    <ClCompile Include="LAngelIdleAction.cpp" />
+    <ClCompile Include="LAngelRunAction.cpp" />
+    <ClCompile Include="LAngelSlide.cpp" />
+    <ClCompile Include="LAngelWalkAction.cpp" />
+    <ClCompile Include="LAnimation.cpp" />
+    <ClCompile Include="LBeamAirInHale.cpp" />
+    <ClCompile Include="LBeamAirOutHale.cpp" />
+    <ClCompile Include="LBeamAttack.cpp" />
+    <ClCompile Include="LBeamCrouch.cpp" />
+    <ClCompile Include="LBeamFall.cpp" />
+    <ClCompile Include="LBeamFlapping.cpp" />
+    <ClCompile Include="LBeamFly.cpp" />
+    <ClCompile Include="LBeamIdleAction.cpp" />
+    <ClCompile Include="LBeamRunAction.cpp" />
+    <ClCompile Include="LBeamSlide.cpp" />
+    <ClCompile Include="LBeamWalkAction.cpp" />
+    <ClCompile Include="LCamera.cpp" />
+    <ClCompile Include="LCollision.cpp" />
+    <ClCompile Include="LCore.cpp" />
+    <ClCompile Include="LCrouch.cpp" />
+    <ClCompile Include="LDeadAction.cpp" />
+    <ClCompile Include="LFall.cpp" />
+    <ClCompile Include="LFatIdle.cpp" />
+    <ClCompile Include="LFatMode.cpp" />
+    <ClCompile Include="LFiniteState.cpp" />
+    <ClCompile Include="LFirstInHale.cpp" />
+    <ClCompile Include="LFlapping.cpp" />
+    <ClCompile Include="LFly.cpp" />
+    <ClCompile Include="LFSMMgr.cpp" />
+    <ClCompile Include="LGrobal.cpp" />
+    <ClCompile Include="LDevice.cpp" />
+    <ClCompile Include="LDXObject.cpp" />
+    <ClCompile Include="LIdleAction.cpp" />
+    <ClCompile Include="LInput.cpp" />
+    <ClCompile Include="LLife.cpp" />
+    <ClCompile Include="LManager.cpp" />
+    <ClCompile Include="LManagerAgr.cpp" />
+    <ClCompile Include="LMath.cpp" />
+    <ClCompile Include="LModeChange.cpp" />
+    <ClCompile Include="LObject.cpp" />
+    <ClCompile Include="LPlaneObj.cpp" />
+    <ClCompile Include="LPlayer.cpp" />
+    <ClCompile Include="LRunAction.cpp" />
+    <ClCompile Include="LSecondInHale.cpp" />
+    <ClCompile Include="LSlide.cpp" />
+    <ClCompile Include="LSoundMgr.cpp" />
+    <ClCompile Include="LSpriteUVObj.cpp" />
+    <ClCompile Include="LTakeDamage.cpp" />
+    <ClCompile Include="LTimer.cpp" />
+    <ClCompile Include="LUtils.cpp" />
+    <ClCompile Include="LWalkAction.cpp" />
+    <ClCompile Include="LWindow.cpp" />
+    <ClCompile Include="LWrite.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="PVShader.hlsl">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </FxCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

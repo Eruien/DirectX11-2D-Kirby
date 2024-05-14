@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FSM">
+      <UniqueIdentifier>{85818a97-d91d-4fe6-89b2-50c54ee19887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Player">
+      <UniqueIdentifier>{5bf11fe2-2160-48cb-ad1f-9e2f9a9697d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Player\FloorAction">
+      <UniqueIdentifier>{ab831984-e7fe-4221-b56e-f38bee651bbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Player\AirAction">
+      <UniqueIdentifier>{157eec43-ce31-4000-a8ba-8555a0199d27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Monster">
+      <UniqueIdentifier>{f6748f0e-a98b-4cfa-912b-8e504d992a96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Player\Beam">
+      <UniqueIdentifier>{b141f82a-c49f-48d1-b4ba-89772b8bdacc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Player\Beam\AirAction">
+      <UniqueIdentifier>{b512e06c-dad8-4b17-94bf-b13395fa4f42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Player\Beam\FloorAction">
+      <UniqueIdentifier>{06a2ffcc-9e10-4a06-bce3-86f7b0e56b00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Player\Angel">
+      <UniqueIdentifier>{942e1b93-c85b-456b-89e3-c7b0743b89f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Player\Angel\FloorAction">
+      <UniqueIdentifier>{f80dc306-92d7-44a3-a2b3-2c0d1d6a2b6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM\Player\Angel\AirAction">
+      <UniqueIdentifier>{513a1722-cb48-4b0c-b197-27cdf91c09e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DirectXTex.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LCamera.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LCollision.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LCore.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LDevice.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LDXObject.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LInput.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LManagerAgr.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LMath.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LObject.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LPlaneObj.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LPlayer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LStd.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LTimer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LUtils.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LWindow.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LWrite.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LGlobal.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LAnimation.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LCrouch.h">
+      <Filter>FSM\Player\FloorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LIdleAction.h">
+      <Filter>FSM\Player\FloorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LRunAction.h">
+      <Filter>FSM\Player\FloorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LSlide.h">
+      <Filter>FSM\Player\FloorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LWalkAction.h">
+      <Filter>FSM\Player\FloorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LAirInHale.h">
+      <Filter>FSM\Player\AirAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LAirOutHale.h">
+      <Filter>FSM\Player\AirAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LFall.h">
+      <Filter>FSM\Player\AirAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LFlapping.h">
+      <Filter>FSM\Player\AirAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LFly.h">
+      <Filter>FSM\Player\AirAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LFiniteState.h">
+      <Filter>FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="LFSMMgr.h">
+      <Filter>FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="LSoundMgr.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LSecondInHale.h">
+      <Filter>FSM\Player\FloorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LFirstInHale.h">
+      <Filter>FSM\Player\FloorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LModeChange.h">
+      <Filter>FSM\Player\FloorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LFatMode.h">
+      <Filter>FSM\Player\FloorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LFatIdle.h">
+      <Filter>FSM\Player\FloorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LBeamAirInHale.h">
+      <Filter>FSM\Player\Beam\AirAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LBeamAirOutHale.h">
+      <Filter>FSM\Player\Beam\AirAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LBeamFall.h">
+      <Filter>FSM\Player\Beam\AirAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LBeamFlapping.h">
+      <Filter>FSM\Player\Beam\AirAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LBeamFly.h">
+      <Filter>FSM\Player\Beam\AirAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LBeamCrouch.h">
+      <Filter>FSM\Player\Beam\FloorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LBeamIdleAction.h">
+      <Filter>FSM\Player\Beam\FloorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LBeamRunAction.h">
+      <Filter>FSM\Player\Beam\FloorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LBeamSlide.h">
+      <Filter>FSM\Player\Beam\FloorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LBeamWalkAction.h">
+      <Filter>FSM\Player\Beam\FloorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LBeamAttack.h">
+      <Filter>FSM\Player\Beam\FloorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LAngelAttack.h">
+      <Filter>FSM\Player\Angel\FloorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LAngelCrouch.h">
+      <Filter>FSM\Player\Angel\FloorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LAngelIdleAction.h">
+      <Filter>FSM\Player\Angel\FloorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LAngelRunAction.h">
+      <Filter>FSM\Player\Angel\FloorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LAngelSlide.h">
+      <Filter>FSM\Player\Angel\FloorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LAngelWalkAction.h">
+      <Filter>FSM\Player\Angel\FloorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LAngelFall.h">
+      <Filter>FSM\Player\Angel\AirAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LAngelFlapping.h">
+      <Filter>FSM\Player\Angel\AirAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LAngelFly.h">
+      <Filter>FSM\Player\Angel\AirAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LSpriteUVObj.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LLife.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LTakeDamage.h">
+      <Filter>FSM\Player\FloorAction</Filter>
+    </ClInclude>
+    <ClInclude Include="LDeadAction.h">
+      <Filter>FSM\Player\FloorAction</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DirectXTex.inl">
+      <Filter>헤더 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="DirectXTex.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LCamera.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LCollision.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LCore.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LDevice.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LDXObject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LInput.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LManagerAgr.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LMath.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LObject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LPlaneObj.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LPlayer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LTimer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LUtils.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LWindow.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LWrite.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LGrobal.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LAnimation.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LCrouch.cpp">
+      <Filter>FSM\Player\FloorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LIdleAction.cpp">
+      <Filter>FSM\Player\FloorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LRunAction.cpp">
+      <Filter>FSM\Player\FloorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LSlide.cpp">
+      <Filter>FSM\Player\FloorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LWalkAction.cpp">
+      <Filter>FSM\Player\FloorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LAirInHale.cpp">
+      <Filter>FSM\Player\AirAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LAirOutHale.cpp">
+      <Filter>FSM\Player\AirAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LFall.cpp">
+      <Filter>FSM\Player\AirAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LFlapping.cpp">
+      <Filter>FSM\Player\AirAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LFly.cpp">
+      <Filter>FSM\Player\AirAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LFiniteState.cpp">
+      <Filter>FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="LFSMMgr.cpp">
+      <Filter>FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="LSoundMgr.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LSecondInHale.cpp">
+      <Filter>FSM\Player\FloorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LFirstInHale.cpp">
+      <Filter>FSM\Player\FloorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LModeChange.cpp">
+      <Filter>FSM\Player\FloorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LFatMode.cpp">
+      <Filter>FSM\Player\FloorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LFatIdle.cpp">
+      <Filter>FSM\Player\FloorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LBeamAirInHale.cpp">
+      <Filter>FSM\Player\Beam\AirAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LBeamAirOutHale.cpp">
+      <Filter>FSM\Player\Beam\AirAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LBeamFall.cpp">
+      <Filter>FSM\Player\Beam\AirAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LBeamFlapping.cpp">
+      <Filter>FSM\Player\Beam\AirAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LBeamFly.cpp">
+      <Filter>FSM\Player\Beam\AirAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LBeamCrouch.cpp">
+      <Filter>FSM\Player\Beam\FloorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LBeamIdleAction.cpp">
+      <Filter>FSM\Player\Beam\FloorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LBeamRunAction.cpp">
+      <Filter>FSM\Player\Beam\FloorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LBeamSlide.cpp">
+      <Filter>FSM\Player\Beam\FloorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LBeamWalkAction.cpp">
+      <Filter>FSM\Player\Beam\FloorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LBeamAttack.cpp">
+      <Filter>FSM\Player\Beam\FloorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LAngelAttack.cpp">
+      <Filter>FSM\Player\Angel\FloorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LAngelCrouch.cpp">
+      <Filter>FSM\Player\Angel\FloorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LAngelIdleAction.cpp">
+      <Filter>FSM\Player\Angel\FloorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LAngelRunAction.cpp">
+      <Filter>FSM\Player\Angel\FloorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LAngelSlide.cpp">
+      <Filter>FSM\Player\Angel\FloorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LAngelWalkAction.cpp">
+      <Filter>FSM\Player\Angel\FloorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LAngelFall.cpp">
+      <Filter>FSM\Player\Angel\AirAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LAngelFlapping.cpp">
+      <Filter>FSM\Player\Angel\AirAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LAngelFly.cpp">
+      <Filter>FSM\Player\Angel\AirAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LSpriteUVObj.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LLife.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LTakeDamage.cpp">
+      <Filter>FSM\Player\FloorAction</Filter>
+    </ClCompile>
+    <ClCompile Include="LDeadAction.cpp">
+      <Filter>FSM\Player\FloorAction</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="PVShader.hlsl" />
+  </ItemGroup>
+</Project>
