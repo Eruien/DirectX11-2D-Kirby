@@ -66,7 +66,7 @@ int APIENTRY wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPWSTR IpCmd
 {
     Sample win;
     win.SetRegisterWindowClass(hInstance);
-    win.SetCreateWindow(L"√¢¿Ã¥Ÿ", 800, 600);
+    win.SetCreateWindow(L"DirectX11 2D Kirby", 800, 600);
     win.Run();
 }
 
