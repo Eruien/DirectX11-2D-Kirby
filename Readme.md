@@ -2,7 +2,7 @@
 * 플레이 영상 : <https://www.youtube.com/watch?v=kkaJJXK7eKY>
 * 다운로드 : <https://naver.me/FLyZmlIj>
   
-<img src="Image/Kirby.png" width="600" height="350"/>
+<img src="Image/Kirby.png" width="300" height="200"/>
 
 ***
 
